@@ -10,7 +10,7 @@
 distance = 0
 energy = 20
 
-puts "Would you like to leave the house and get some fresh air? yes or no? You can go home at any time by asking to go home"
+puts "Would you like to leave the house? yes or no? You can go home at any time by asking to go home"
 leave = gets.chomp
 while leave == "yes" && energy > 0
     puts "Would you like to walk or run?"
